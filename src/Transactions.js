@@ -36,7 +36,7 @@ class Transactions extends Component  {
                 <tr>
                     <td>1</td>
                     <td>2</td>
-                    <td>2</td>
+                    <td>4</td>
                     <td>50000</td>
                     <td>5/1/2026</td>
                     <td>Makanan</td>
