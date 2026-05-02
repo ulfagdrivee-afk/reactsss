@@ -1,5 +1,30 @@
 import { Component } from "react";
+import axios from "axios";
 class Currencies extends Component  {
+     handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const form = e.target;
+
+    const data = {
+      name: form.name.value,
+      email: form.email.value,
+      password: form.password.value,
+    };
+
+    try {
+      await axios.get("http://127.0.0.1:8000/api/currencies", data);
+
+      alert("Register berhasil, silakan login");
+
+      window.location.href = "/";
+
+    } catch (err) {
+      console.log(err);
+      alert("Register gagal");
+    }
+  };
+    
     render() {
         return (
              <div className="container mt-5">

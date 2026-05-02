@@ -22,6 +22,7 @@ function Navbar() {
     </div>
   </div>
 </nav>
+    )
 //  <a href="/" className='btn btn-primary m-2'>Login</a>
 //  <a href="/register" className='btn btn-primary m-2'>Register</a>
 //   <a href="/user" className='btn btn-primary m-2'>User</a> 
@@ -37,7 +38,7 @@ function Navbar() {
 <Link to="/transactions" className="nav-link">Transactions</Link>
 <Link to="/currencies" className="nav-link">Currencies</Link>
 <Link to="/categories" className="nav-link">Categories</Link> */}
-    );
+    
 }
 
 export default Navbar;

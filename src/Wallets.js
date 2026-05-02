@@ -2,10 +2,13 @@ import { Component } from "react";
 class Wallets extends Component  {
     render() {
         return (
+            
              <div className="container mt-5">
+                 
                 <div className="text-start">
                       <button className="btn btn-success">Tambah Data</button>
                 </div>
+              
               
                 
            <table className="table">
