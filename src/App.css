@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.menu-burger{
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  justify-self: end;
+  gap: 5px;
+}
+
+.menu-burger span{
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.nav-menu{
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .menu-burger{
+    display: flex;
+  }
+  .nav-menu{
+    display: none;
+  }
+}
