@@ -57,7 +57,6 @@ class Register extends Component {
             placeholder="Password"
           />
 
-          {/* 🔥 tetap style sama, tapi jadi button */}
           <button type="submit" className="btn btn-success m-2">
             Register
           </button>

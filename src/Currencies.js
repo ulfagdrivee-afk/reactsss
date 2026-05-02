@@ -8,20 +8,20 @@ class Currencies extends Component  {
 
     const data = {
       name: form.name.value,
-      email: form.email.value,
-      password: form.password.value,
+      symbol: form.symbol.value,
+      code: form.code.value,
     };
 
     try {
       await axios.get("http://127.0.0.1:8000/api/currencies", data);
 
-      alert("Register berhasil, silakan login");
+      alert("Menampilkam  semua data Mata uang berhasil");
 
-      window.location.href = "/";
+      window.location.href = "#";
 
     } catch (err) {
       console.log(err);
-      alert("Register gagal");
+      alert("Error");
     }
   };
     

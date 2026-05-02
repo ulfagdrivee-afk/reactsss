@@ -64,4 +64,27 @@
   .nav-menu{
     display: none;
   }
+  .menu-burger:checked ~ .nav-menu{
+    display: flex;
+  }
+  .nav-menu{
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #282c53;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .nav-menu li{
+    margin: 10px 0;
+  }
+  .nav-menu li a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .nav-menu li a:hover{
+    text-decoration: underline;
+  }
+  
 }

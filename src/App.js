@@ -58,7 +58,7 @@ function App() {
           <li><a href="wallets">Wallets</a></li>
           <li><a href="categories">Categories</a></li>
           <li><a href="transactions">Transactions</a></li>
-          <button onClick={handleLogout} className='m-2 btn btn-danger'>
+          <button onClick={handleLogout} className='m-2'>
                 Logout
               </button>
         </div>
